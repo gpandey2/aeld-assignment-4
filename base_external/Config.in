@@ -1,0 +1,7 @@
+source "$BR2_EXTERNAL_PROJECT_BASE_PATH/package/aesd-assignments/Config.in"
+
+config BR2_PACKAGE_PROJECT_BASE
+        bool "project-base"
+        help
+          Base project to include the writer executable, finder.sh and tester.sh in the kernel image.
+          Used to understand buildroot external trees and package builds.
